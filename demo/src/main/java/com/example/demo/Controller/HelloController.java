@@ -15,6 +15,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return message + " - test fail v2" + version;
+        return message + " - " + version;
     }
 }
