@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: k8s-demo-config
+
+data:
+  APP_MESSAGE: "Nam đẹp trai"
+  APP_VERSION: "v4"
